@@ -7,7 +7,9 @@ import           Yesod
 
 data HelloWorld = HelloWorld
 
-mkYesod "HelloWorld" [parseRoutes|/ HomeR GET|]
+mkYesod "HelloWorld" [parseRoutes|
+    / HomeR GET
+    |]
 
 instance Yesod HelloWorld
 
