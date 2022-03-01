@@ -1,0 +1,16 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "dosey:lib"
+
+    - path: "./app/main.hs"
+      component: "dosey:exe:dosey"
+
+    - path: "./app/DevelMain.hs"
+      component: "dosey:exe:dosey"
+
+    - path: "./app/Paths_dosey.hs"
+      component: "dosey:exe:dosey"
+
+    - path: "./test"
+      component: "dosey:test:dosey-test"
